@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede AutoPrime - Performance para Oficinas</title>
+    <meta name="description" content="Sua oficina está perdendo dinheiro. A Rede AutoPrime tem a solução para elevar sua performance.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo" aria-label="Página inicial da Rede AutoPrime">
+                <img src="assets/logo-autoprime.png" alt="Logotipo Rede AutoPrime - Mecânicas e Funilarias">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#rede">A Rede</a></li>
+                    <li><a href="#cases">Cases de Sucesso</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+                <a href="#contato" class="btn btn-primary btn-header">Agendar Análise</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Abrir menu de navegação">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="video-background">
+                <video autoplay loop muted playsinline poster="assets/poster.jpg">
+                    <source src="assets/AutoPrime.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            
+            <div class="container hero-content">
+                <h1 class="hero-headline">Sua oficina está perdendo dinheiro. E você nem sabe onde.</h1>
+                <p class="hero-subheadline">Analisamos seus números, processos e gargalos para desbloquear o verdadeiro potencial do seu negócio.</p>
+                <div class="hero-cta-group">
+                    <a href="#contato" class="btn btn-primary">Agendar Análise de Potencial</a>
+                    <a href="#cases" class="btn btn-secondary">Veja os resultados</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="dores" id="rede">
+            <div class="container">
+                <div class="dores-grid">
+                    <div class="dor-card">
+                        <div class="dor-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h3 class="dor-title">Custos Descontrolados</h3>
+                        <p>Sua Oficina de Funilaria gasta mais do que 10% da receita de M.O. com matarias de produção, sua oficina precisa de ajuda.</p>
+                    </div>
+                    <div class="dor-card">
+                        <div class="dor-icon">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h3 class="dor-title">Mão de Obra Improdutiva</h3>
+                        <p>Esta díficil lidar com a equipe, baixa produtividade, falta de padrão técnico e baixa eficiência que impactam diretamente sua entrega, sua oficina precisa de ajuda.</p>
+                    </div>
+                    <div class="dor-card">
+                        <div class="dor-icon">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h3 class="dor-title">Negociação com Seguradoras</h3>
+                        <p>Se sua oficina atende seguradoras e ou é credenciada e não esta ganhando muito dinheiro esta errado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solucao">
+            <div class="container grid-50-50">
+                <div class="solucao-imagem">
+                    <img src="assets/foto-reuniao.jpg" alt="Empresários em reunião estratégica da Rede AutoPrime">
+                </div>
+                <div class="solucao-texto">
+                    <h2>Sozinho você é uma oficina. Juntos, somos uma potência de <span class="text-highlight-blue">R$ 840 milhões/ano.</span></h2>
+                    <p>A Rede AutoPrime não é um franqueador. Somos uma central de inteligência de negócios que une as melhores oficinas independentes, fornecendo poder de compra, tecnologia de gestão e marketing de alta performance.</p>
+                    <a href="#contato" class="btn btn-primary">Entenda como fazemos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="pilares">
+            <div class="container">
+                <h2 class="pilares-title">Sua Oficina, 10 Níveis Acima.</h2>
+                <div class="pilares-grid">
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">1. Regulação de sinistros</h4>
+                        <p class="pilar-card-desc">Você terá acesso a informações e conhecimentos únicos sobre regulação de sinistros.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">2. Treinamentos especializados</h4>
+                        <p class="pilar-card-desc">Toda semana sua oficina tem atualização ao vivo.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">3. Promoções exclusivas</h4>
+                        <p class="pilar-card-desc">Campanhas e descontos com os principais fornecedores do segmento.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">4. Pós vendas e mediação</h4>
+                        <p class="pilar-card-desc">Sua oficina não terá mais reclamações externas.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">5. Suporte em Vendas</h4>
+                        <p class="pilar-card-desc">Equipe e ferramentas que apoiam em tempo integral sua área comercial.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">6. Padronição dos Processos</h4>
+                        <p class="pilar-card-desc">Manuais de instrução documentados de todas as áreas administrativas e produtivas da sua oficina.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">7. Indicadores (KPIs)</h4>
+                        <p class="pilar-card-desc">Dashboards em tempo real para tomada de decisão baseada em dados.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">8. Intercâmbios</h4>
+                        <p class="pilar-card-desc">Conhecer e visitar excelentes oficinas traz atalhos para o crescimento.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">9. Desenvolvimento do Supervisor</h4>
+                        <p class="pilar-card-desc">Encarregados e Líderes bem treinados trazem grandes resultados.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <div class="pilar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0z"></path></svg>
+                        </div>
+                        <h4 class="pilar-card-title">10. Acompanhamento de Metas</h4>
+                        <p class="pilar-card-desc">Juntos fazemos asmetas e batemos as metas da sua empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="roi">
+            <div class="container">
+                <h2 class="roi-number">15% a 45%</h2>
+                <p class="roi-desc">De aumento médio na margem de lucro líquida dos Filiados.</p>
+                
+                <h2 class="roi-number">30%</h2>
+                <p class="roi-desc">De redução no custo de insumos através das práticas da Rede AutoPrime.</p>
+                
+                <h3 class="roi-garantia">Garantia total de crescimento nos resultados.</h3>
+            </div>
+        </section>
+
+        <section class="prova-social" id="cases">
+            <div class="container">
+                <h2 class="prova-social-title">Resultados Reais, Oficinas Reais.</h2>
+                
+                <div class="prova-social-grid">
+                    <div class="video-embed-card">
+                        <iframe 
+                            src="https://www.youtube.com/embed/PLACEHOLDER_ID_1" 
+                            title="Case de Sucesso AutoPrime - Oficina 1" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+                        <h4 class="video-card-title">Nome da Oficina 1</h4>
+                        <p class="video-card-owner">Proprietário(a) 1</p>
+                    </div>
+                    <div class="video-embed-card">
+                        <iframe 
+                            src="https://www.youtube.com/embed/PLACEHOLDER_ID_2" 
+                            title="Case de Sucesso AutoPrime - Oficina 2" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+                        <h4 class="video-card-title">Nome da Oficina 2</h4>
+                        <p class="video-card-owner">Proprietário(a) 2</p>
+                    </div>
+                    <div class="video-embed-card">
+                        <iframe 
+                            src="https://www.youtube.com/embed/PLACEHOLDER_ID_3" 
+                            title="Case de Sucesso AutoPrime - Oficina 3" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+                        <h4 class="video-card-title">Nome da Oficina 3</h4>
+                        <p class="video-card-owner">Proprietário(a) 3</p>
+                    </div>
+                    <div class="video-embed-card">
+                        <iframe 
+                            src="https://www.youtube.com/embed/PLACEHOLDER_ID_4" 
+                            title="Case de Sucesso AutoPrime - Oficina 4" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+                        <h4 class="video-card-title">Nome da Oficina 4</h4>
+                        <p class="video-card-owner">Proprietário(a) 4</p>
+                    </div>
+                </div> <div class="depoimentos-grid">
+                    <div class="depoimento-card">
+                        <img src="assets/foto-joao-silva.png" alt="Foto de João Silva" class="depoimento-foto">
+                        <p class="depoimento-texto">"Depois da AutoPrime, eu parei de 'apagar incêndio' e comecei a gerenciar um negócio de verdade. Meus custos caíram 25% no primeiro trimestre."</p>
+                        <span class="depoimento-autor">João Silva</span>
+                        <span class="depoimento-oficina">Oficina SilvaCar, São Paulo</span>
+                    </div>
+                    <div class="depoimento-card">
+                        <img src="assets/foto-maria-fernandes.png" alt="Foto de Maria Fernandes" class="depoimento-foto">
+                        <p class="depoimento-texto">"A central de compras é imbatível. Consigo preços que, sozinho, eu jamais teria acesso. Isso mudou o jogo da minha precificação."</p>
+                        <span class="depoimento-autor">Maria Fernandes</span>
+                        <span class="depoimento-oficina">Auto-Reparo Fernandes, Curitiba</span>
+                    </div>
+                    <div class="depoimento-card">
+                        <img src="assets/foto-carlos-andrade.png" alt="Foto de Carlos Andrade" class="depoimento-foto">
+                        <p class="depoimento-texto">"O software de gestão me mostrou onde eu perdia dinheiro. Hoje, cada ordem de serviço tem a margem exata que eu planejei."</p>
+                        <span class="depoimento-autor">Carlos Andrade</span>
+                        <span class="depoimento-oficina">Prime Funilaria, Belo Horizonte</span>
+                    </div>
+                </div> </div>
+        </section>
+
+        <section class="cta-final" id="contato">
+            <div class="container grid-50-50">
+                <div class="cta-texto">
+                    <h2>Você pode continuar como está.</h2>
+                    <h2>Ou pode juntar-se a centenas de empresas de todo o Brasil. Tome a decisão de mudar o seu furuto e da sua empresa.</h2>
+                    <p>Agende uma análise de potencial gratuita com nossos especialistas e descubra quanto sua oficina poderia estar faturando se fizesse parte da Rede AutoPrime.</p>
+                </div>
+                
+                <form class="cta-form" id="analysis-form">
+                    <h3>Quero minha Análise Gratuita</h3>
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp">WhatsApp</label>
+                        <input type="tel" id="whatsapp" name="whatsapp" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Principal</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="oficina">Nome da Oficina</label>
+                        <input type="text" id="oficina" name="oficina" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-form">Quero minha Análise Gratuita</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                 <img src="assets/logo-autoprime-footer.png" alt="Logotipo Rede AutoPrime">
+            </div>
+            <div class="footer-links">
+                <a href="#rede">A Rede</a>
+                <a href="#cases">Cases de Sucesso</a>
+                <a href="#blog">Blog</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contato">Agendar Análise</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram">[In]</a>
+                <a href="#" aria-label="LinkedIn">[Li]</a>
+                <a href="#" aria-label="YouTube">[Yt]</a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Rede AutoPrime. Todos os direitos reservados. Inteligência e performance para oficinas.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
